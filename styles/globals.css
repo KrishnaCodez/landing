@@ -1,26 +1,62 @@
-html,
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@600;700&display=swap");
 body {
-  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-lexend-deca: "Lexend Deca";
+  --font-space-grotesk: "Space Grotesk";
+  --font-syne: Syne;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+  /* font sizes */
+  --font-size-xs: 7.2px;
+  --font-size-sm: 8.4px;
+  --font-size-base: 9.6px;
+  --font-size-lg: 12px;
+  --font-size-xl: 14.4px;
+  --font-size-2xl: 16.8px;
+  --font-size-3xl: 19.2px;
+  --font-size-4xl: 21.6px;
 
-* {
-  box-sizing: border-box;
-}
+  /* Colors */
+  --purple-05: #fcfaff;
+  --grey-20: #edf2f7;
+  --color-gray-300: #f8e0fb;
+  --grey-30: #e2e8f0;
+  --grey-50: #a1aebf;
+  --blue-50: #4299e1;
+  --grey-60: #728095;
+  --grey-70: #4b5567;
+  --cyan-60: #00b5d8;
+  --cyan-100: #065666;
+  --black1: #000;
+  --accent: #532c59;
+  --white: #fff;
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+  /* Gaps */
+  --gap-0: 0px;
+  --gap-2xs: 2.4px;
+  --gap-xs: 3.6px;
+  --gap-sm: 4.8px;
+  --gap-md: 7.2px;
+  --gap-lg: 9.6px;
+  --gap-xl: 14.4px;
+  --gap-2xl: 19.2px;
+  --gap-3xl: 28.8px;
+
+  /* Paddings */
+  --padding-xs: 4.800000190734863px;
+  --padding-sm: 7.200000286102295px;
+  --padding-md: 9.600000381469727px;
+  --padding-lg: 12px;
+  --padding-xl: 14.40000057220459px;
+
+  /* border radiuses */
+  --br-xs: 1.2px;
+  --br-sm: 4.8px;
+  --br-md: 9px;
+  --br-lg: 12px;
 }
