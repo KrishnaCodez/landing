@@ -100,13 +100,13 @@ const New = () => {
               </b>
               <div className={styles.paragraphDiv}>
                 <div className={styles.velitOdioBibendumEuViver}>
-                  Velit, odio bibendum eu, viverra sit laoreet posuere. Ut
-                  scelerisque posuere massa amet. Ornare lacinia vitae at
-                  vestibulum morbi. Volutpat libero curabitur feugiat risus dui
-                  pulvinar. Elementum.
+                  He wants to, hate to drink football, be a cartoon to put the
+                  laoreet. As Put the chocolate dough in the refrigerator. To
+                  adorn the lacinia of life at disease outbreak Feugiat will
+                  take care of his free will pillow An element.
                 </div>
               </div>
-              <button className={styles.letsSellB}>Let’s sell</button>
+              <button className={styles.letsSellB}>Lets Explore</button>
             </div>
           </div>
         </div>
